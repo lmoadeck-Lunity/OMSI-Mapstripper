@@ -5,3 +5,4 @@ e.g
 `Splines\Splines\hktaxidriver\hktaxidriver\2lanes_oneway_noped.sli` 
 ->
 `Splines\hktaxidriver\2lanes_oneway_noped.sli`
+# requires python 3.12
