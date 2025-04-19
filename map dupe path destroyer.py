@@ -5,7 +5,7 @@ ls = os.listdir()
 ls = [os.path.abspath(x) for x in ls if os.path.isfile(x) and x.endswith('.map')]
 # print(ls)
 for eachmap in ls:
-    maap = open(eachmap, 'r', encoding='utf-16',errors='ignore').readlines()
+    maap = open(eachmap, 'r', encoding='utf-16-le',errors='ignore').readlines()
     # print(maap)
     count = 0
     while count < len(maap):
