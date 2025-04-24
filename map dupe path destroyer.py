@@ -10,7 +10,7 @@ for eachmap in ls_map:
     # print(maap)
     count = 0
     while count < len(maap):
-        if maap[count] in ['[spline_h]\n', '[spline]\n','[object]\n']:
+        if maap[count] in ['[spline_h]\n', '[spline]\n','[object]\n','[splineAttachement]\n','[attachObj]\n']:
             patha = maap[count + 2]
             # print(patha)
             patha = patha.split("\\")
